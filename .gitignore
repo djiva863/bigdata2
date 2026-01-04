@@ -1,0 +1,13 @@
+node_modules/
+elasticsearch*/
+kibana*/
+
+*.exe
+*.dll
+*.bin
+
+jdk/
+*.jar
+
+*.log
+.cache/
