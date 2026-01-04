@@ -11,4 +11,3 @@ for b in brands:
     
     with open(f"{path}{b}_news.json", "w") as f:
         json.dump(data, f)
-    print(f"Importé News : {b}")

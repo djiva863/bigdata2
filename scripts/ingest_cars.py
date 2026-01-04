@@ -10,4 +10,3 @@ for b in brands:
     
     with open(f"{path}{b}.json", "w") as f:
         json.dump(data, f)
-    print(f"Importé : {b}")
